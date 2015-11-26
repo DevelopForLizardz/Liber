@@ -32,7 +32,6 @@ import urllib2
 import StringIO
 from random import randint
 
-
 # setup logging
 I_am_child = False
 for x, y in logging.Logger.manager.loggerDict.items():

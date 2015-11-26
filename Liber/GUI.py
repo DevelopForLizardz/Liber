@@ -647,10 +647,10 @@ class MainFrame(wx.Frame):
 
         # add an icon and a title
         if platform.system() == 'Windows':
-            self.SetIcon(wx.Icon(os.path.dirname(__file__)+'\docs\\256x256.png',
+            self.SetIcon(wx.Icon(os.getcwd()+'\docs\\256x256.png',
                                  wx.BITMAP_TYPE_ANY))
         else:
-            self.SetIcon(wx.Icon(os.path.dirname(__file__)+'/docs/256x256.png',
+            self.SetIcon(wx.Icon(os.getcwd()+'/docs/256x256.png',
                                  wx.BITMAP_TYPE_ANY))
         self.SetTitle("Liber")
 
