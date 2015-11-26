@@ -4,13 +4,13 @@ GUI application for downloading YouTube videos.
 ## About
 
 This project is being used as a learning project, to get experience in the creation, distribution and managagment of applications/programs. 
-It is meant to be used in the form of the executables (found under [Liber/dist](https://github.com/DevelopForLizardz/Liber/blob/master/Liber/dist/Liber.app.zip)), however using the source code in a project of your own is also encouraged.
+It is meant to be used in the form of the executables (found under [Liber/dist](https://github.com/DevelopForLizardz/Liber/blob/master/Liber/dist)), however using the source code in a project of your own is also encouraged.
 
 ## Download/Installation
 
 **OSX:**
 
-Download Liber.app.zipp found under [Liber/dist](https://github.com/DevelopForLizardz/Liber/blob/master/Liber/dist/Liber.app.zip), uncompress it, and then put it into your Applications folder.
+Download Liber.app.zipp found under [Liber/dist](https://github.com/DevelopForLizardz/Liber/blob/master/Liber/dist), uncompress it, and then put it into your Applications folder.
 
 **Windows:**
 
