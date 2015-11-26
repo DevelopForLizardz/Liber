@@ -15,6 +15,7 @@ import ez_setup
 ez_setup.use_setuptools()
 
 import sys
+import os
 from setuptools import setup
 
 mainscript = '__main__.py'
@@ -26,7 +27,7 @@ if sys.platform == 'darwin':
         app=[mainscript],
         # Cross-platform applications generally expect sys.argv to
         # be used for opening files.
-        options=dict(py2app=dict(argv_emulation=True, iconfile='/Users/ryan/Code/Projects/Liber/docs/512x512.icns')),
+        options=dict(py2app=dict(argv_emulation=True, iconfile=os.path.dirname+'/docs/512x512.icns')),
     )
 elif sys.platform == 'win32':
     extra_options = dict(
