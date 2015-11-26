@@ -1,27 +1,65 @@
 # Liber
 GUI application for downloading YouTube videos.  
 
-(C) Ryan Drew 2015
+## About
 
-If using the executables:
+This project is being used as a learning project, to get experience in the creation, distribution and managagment of applications/programs. 
+It is meant to be used in the form of the executables (found under [Liber/dist](https://github.com/DevelopForLizardz/Liber/blob/master/Liber/dist/Liber.app.zip)), however using the source code in a project of your own is also encouraged.
 
-All you have to do is just __download__ the appropriate executable based on your operating system and voila! Run that sucker to your hearts content.
+## Download/Installation
 
-If using the source code:
+**OSX:**
 
-Liber requires these packages:
+Download Liber.app.zipp found under [Liber/dist](https://github.com/DevelopForLizardz/Liber/blob/master/Liber/dist/Liber.app.zip), uncompress it, and then put it into your Applications folder.
 
-__Pafy__
+**Windows:**
 
-__Pydub__ 
+(coming soon- testing needed)
 
-__mutagen__
+**Linux:**
 
-__youtube-dl__
+Download the [source code](https://github.com/DevelopForLizardz/Liber/tree/master/Liber) (folders dist and build not needed) and run setup.py to install dependencies, however one of the dependencies also requires [ffmpeg](http://www.ffmpeg.org). To install, execute:
 
-and __ffmpeg__
+```bash
+sudo apt-get install ffmpeg
+```
 
-All of these, except __ffmpeg__ can be installed using __Pip__ or just by executing __setup.py__. __Ffmpeg__, on the other hand, needs to be installed by using __apt-get install ffmpeg__,
-however if you are using Ubuntu 14.04, you might need to execute __sudo add-apt-repository ppa:mc3man/trusty-media && sudo apt-get update && sudo apt-get dist-upgrade__ first, in order to give apt a source.
+(If you are using Ubuntu 14.04, you might need to run ```bash add-apt-repository ppa:mc3man/trusty-media && sudo apt-get update && sudo apt-get dist-upgrade``` first.)
 
-In all honesty this program is pretty terrible in its current state and lacking features, however this is my first attempt at someting like this. Over time this program will improve as I start improving as well, so patience is very much asked for.
+## Dependencies (if using a Linux distribution or as a module)
+
+[**Python 2.7**](http://python.org) (support for Python 3.5 coming soon)
+
+[**Pafy**](http://np1.github.io/pafy/)- Used for communication with YouTube
+
+[**PyDub**](https://github.com/jiaaro/pydub)- Used to convert audio files to mp3 and to add metadata
+
+[**mutagen**](https://bitbucket.org/lazka/mutagen)- Used to add album artwork to audio
+
+[**youtube-dl**](http://rg3.github.io/youtube-dl/)- Dependency for Pafy.
+
+[**ffmpeg**](http://www.ffmpeg.org)- Dependency for PyDub
+
+## License ([MIT License](http://opensource.org/licenses/mit-license.php))
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Ryan Drew
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
