@@ -18,7 +18,7 @@ Download Liber.app.zipp found under [Liber/dist](https://github.com/DevelopForLi
 
 **Linux:**
 
-Download the [source code](https://github.com/DevelopForLizardz/Liber/tree/master/Liber) (folders dist and build not needed) and run setup.py to install dependencies, however one of the dependencies also requires [ffmpeg](http://www.ffmpeg.org). To install, execute:
+Download the [source code](https://github.com/DevelopForLizardz/Liber/tree/master/Liber) (folders dist and build not needed) and run ```python setup.py build && python setup.py install``` to install dependencies, however one of the dependencies also requires [ffmpeg](http://www.ffmpeg.org). To install, execute:
 
 ```bash
 sudo apt-get install ffmpeg
