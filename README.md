@@ -6,6 +6,8 @@ GUI application for downloading YouTube videos.
 This project is being used as a learning project, to get experience in the creation, distribution and managagment of applications/programs. 
 It is meant to be used in the form of the executables (found under [Liber/dist](https://github.com/DevelopForLizardz/Liber/blob/master/Liber/dist)), however using the source code in a project of your own is also encouraged.
 
+Update 0.2 coming soon. This will fix alot of the inefficency, poor structure and spaghetti code. (A date for the milestone "Liber-Stable" has also been added, displaying when I hope to get this update out.)
+
 ## Download/Installation
 
 **OSX:**
